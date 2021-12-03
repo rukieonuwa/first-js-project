@@ -1,0 +1,294 @@
+*{margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    max-width: 1400px;
+    min-width: 1020px;
+    margin: auto;
+
+}
+.head{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.form{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+   width: 1000px ; 
+     flex-direction: column; 
+    
+    
+}
+
+.form .formh1{
+    padding: 10px;
+}
+
+.form .formm{
+    display: flex;
+     /* flex-direction: column;  */
+     padding-bottom: 20px;
+     margin-bottom: 20px;
+    
+}
+
+
+.form .formm input {
+    padding: 10px;
+    padding-right: 150px;
+    font-size: 20px;
+    margin:10px;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 5px;
+}
+
+hr{
+    margin: 30px;
+}
+
+.personal{
+    width: 1000px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+} 
+.personal .form2{
+    padding: 10px;
+}
+.personal .form2 input{
+    padding: 10px;
+    padding-right: 150px;
+    font-size: 20px;
+    margin:10px;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 5px;
+
+}
+ .personal .form2 select{
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 5px;
+    padding-right: 202px;
+    color: rgb(82, 81, 81);
+} 
+
+.personal .form2 .selectcountry{
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 5px;
+    padding-right: 270px;
+    color: rgb(82, 81, 81);
+}
+
+.educationalinfo{
+    margin: 10px;
+    padding: 10px;
+}
+.educationalinfo .head3{
+    padding-bottom: 20px;
+}
+.educationalinfo input{
+    padding: 10px;
+    padding-right: 150px;
+    font-size: 20px;
+    margin:10px;
+    margin-top: 12px;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 5px;
+}
+
+.educationalinfo select{
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 5px;
+    padding-right: 202px;
+    color: rgb(82, 81, 81);
+}
+.educationalinfo .gradehead{
+    padding: 10px;
+}
+
+.educationalinfo .selectgrade1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.educationalinfo .selectgrade2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.educationalinfo .selectgrade3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.educationalinfo .selectgrade4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.educationalinfo .selectgrade5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.educationalinfo .selectgrade6{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.educationalinfo .selectgrade7{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.educationalinfo .selectgrade8{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit button{
+    padding: 10px 20px;
+    background-color: lightskyblue;
+    color: white;
+   border-radius: 5px;
+   font-size: 16px;
+   outline: rgb(34, 60, 179);
+   border: 1px solid rgb(129, 127, 127);
+   margin-top: 25px;
+}
+
+.bottom{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 624px){
+    .head{
+        font-size: 30px;
+    }
+    .form{
+        width: 800px;
+    }
+    .form .formh1{
+        font-size: 30px;
+    }
+    .form .formm input {
+        padding-right: 160px;
+        font-size: 60px;   
+    }
+    .personal{
+        width: 800px;
+    }
+    .personal .h1{
+        font-size: 30px;
+    }
+    .personal .form2 input{
+        padding-right: 160px;
+       font-size:60px;
+    }
+     .personal .form2 select{
+        font-size: 60px;
+        padding-right: 390px;
+    } 
+    .personal .form2 .selectcountry{
+        font-size: 60px;
+        padding-right: 582px;
+    }
+    .educationalinfo .head3{
+        font-size: 30px;
+    }
+    .educationalinfo .gradehead{
+        font-size: 30px;
+    }
+    .educationalinfo input{
+        padding-right: 160px;
+        font-size: 60px;  
+    }
+    .educationalinfo select{ 
+        font-size: 60px;
+        padding-right: 300px;
+    }
+    .educationalinfo .selectgrade1{
+        display: flex;
+        flex-direction: column;
+    }
+    .educationalinfo .selectgrade2{
+        display: flex;
+        flex-direction: column;
+    }
+    .educationalinfo .selectgrade3{
+        display: flex;
+        flex-direction: column;
+    }
+    .educationalinfo .selectgrade4{
+        display: flex;
+        flex-direction: column;
+    }
+    .educationalinfo .selectgrade5{
+        display: flex;
+        flex-direction: column;
+    }
+    .educationalinfo .selectgrade6{
+        display: flex;
+        flex-direction: column;
+    }
+    .educationalinfo .selectgrade7{
+        display: flex;
+        flex-direction: column;
+    }
+    .educationalinfo .selectgrade8{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* @media screen and (min-width: 1281px){
+    .form{
+        width: 1100px;
+    }
+    .form .formh1{
+        font-size: 35px;
+    } 
+     .form .formm input {
+        padding-right: 165px;
+        font-size: 65px;   
+    } 
+    .personal{
+        width: 1100px;
+    }
+     .personal .h1{
+        font-size: 35px;
+    }
+    .personal .form2 input{
+        padding-right: 165px;
+       font-size:65px;
+    }
+     .personal .form2 select{
+        font-size: 65px;
+        padding-right: 395px;
+    } 
+    .personal .form2 .selectcountry{
+        font-size: 65px;
+        padding-right: 585px;
+    }
+    .educationalinfo .head3{
+        font-size: 40px;
+    }
+    .educationalinfo .gradehead{
+        font-size: 40px;
+    }
+   
+}  */
